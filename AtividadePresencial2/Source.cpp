@@ -142,16 +142,16 @@ int main() {
 #pragma region Input Handling
 
         if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-            sprite6PosY -= 1.5f; // Move para baixo
+            sprite6PosY -= 0.2f; // Move para baixo
         }
         if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
-            sprite6PosY += 1.5f; // Move para baixo
+            sprite6PosY += 0.2f; // Move para baixo
         }
         if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
-            sprite6PosX -= 1.5f; // Move para a esquerda
+            sprite6PosX -= 0.2f; // Move para a esquerda
         }
         if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-            sprite6PosX += 1.5f; // Move para a direita
+            sprite6PosX += 0.2f; // Move para a direita
         }
 
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
